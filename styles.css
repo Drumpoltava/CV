@@ -1,6 +1,9 @@
 body {
     background-color: lightgray;
+    color: black;
     font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -16,10 +19,14 @@ a:active {
     color: blue;
 }
 
+a:visited {
+    color: gray;
+}
+
 .avatar {
     width: 200px;
     border-radius: 50px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.35);
 }
 
 .info {
@@ -38,27 +45,31 @@ a:active {
     margin-left: 40px;
 }
 
+
 .info-text h4 {
     margin-bottom: 10px;
 }
 
 .info p {
+    color: black;
     margin: 0;
     font-style: italic;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .container {
+    max-width: 100%;
     margin: auto;
     padding-top: 30px;
 }
 
-.bg-yellow {
-    background: #fff9dc;
-}
-
 .bg-green {
     background: #e5ffe7;
+}
+
+.bg-yellow {
+    background: #fff9dc;
 }
 
 .bg-red {
@@ -79,14 +90,39 @@ a:active {
     border-radius: 20px;
 }
 
+.card h2 {
+    margin-bottom: 10px;
+}
+
 .list {
     padding: 0 20px;
     list-style: square;
+    margin-bottom: 10px;
 }
 
 .list li {
     margin-top: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
